@@ -27,7 +27,7 @@ const Footer = () => {
         <Link href="/about" className="block hover:underline">about</Link>
         <Link href="/clients" className="block hover:underline">clients</Link>
         <Link href="/contact" className="block hover:underline">contact</Link>
-        <p className="text-xs mt-2">©2025 Beans engineering</p>
+        <p className="text-xs mt-2">©2025 beans.dev</p>
       </div>
     </footer>
   );

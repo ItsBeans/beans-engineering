@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center px-12 py-6 bg-[#EBD7CE] text-black">
       {/* Logo */}
-      <h1 className="text-2xl font-medium tracking-wide">beans...</h1>
+      <h1 className="text-2xl font-medium tracking-wide" ><Link href="/">beans.dev</Link></h1>
 
       {/* Navigation Links */}
       <nav className="flex space-x-12 text-lg self-end">
