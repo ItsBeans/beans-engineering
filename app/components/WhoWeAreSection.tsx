@@ -2,30 +2,40 @@ import React from 'react';
 
 const WhoWeAreSection: React.FC = () => {
   return (
-    <section className="bg-[#EBD7CE] py-60 px-auto">
-      <div className="container mx-auto">
-        <h2 className="text-5xl font-bold text-black mb-3">who we are</h2>
-        
-        <p className="max-w-xl text-gray-800 mb-12">
-          beans.dev is a digital studio specialising in modern, high-performance
-          software and websites. We blend creativity with technology to craft seamless
-          digital experiences.
-        </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800">
-          <div className="text-center">
-            <div className="text-4xl font-bold mb-1">10+</div>
-            <div className="text-sm">Happy clients</div>
-          </div>
+    <section id="about" className="bg-accent min-h-screen flex items-center py-20 md:py-32">
+      <div className="container mx-auto px-6 md:px-12">
+        <div className="max-w-4xl">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-slide-up">
+            who we are
+          </h2>
           
-          <div className="text-center">
-            <div className="text-4xl font-bold mb-1">5</div>
-            <div className="text-sm">Years of experience</div>
-          </div>
+          <p className="max-w-2xl text-text-muted text-lg md:text-xl mb-16 leading-relaxed animate-slide-up animate-delay-100">
+            beans.dev is a digital studio specialising in modern, high-performance
+            software and websites. We blend creativity with technology to craft seamless
+            digital experiences.
+          </p>
           
-          <div className="text-center">
-            <div className="text-4xl font-bold mb-1">100%</div>
-            <div className="text-sm">Custom solutions</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 animate-slide-up animate-delay-200">
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold mb-2 text-foreground group-hover:scale-110 transition-transform duration-300">
+                10+
+              </div>
+              <div className="text-sm md:text-base text-text-muted uppercase tracking-wide">Happy clients</div>
+            </div>
+            
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold mb-2 text-foreground group-hover:scale-110 transition-transform duration-300">
+                5
+              </div>
+              <div className="text-sm md:text-base text-text-muted uppercase tracking-wide">Years of experience</div>
+            </div>
+            
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold mb-2 text-foreground group-hover:scale-110 transition-transform duration-300">
+                100%
+              </div>
+              <div className="text-sm md:text-base text-text-muted uppercase tracking-wide">Custom solutions</div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,17 +1,15 @@
-import Header from "./components/Header";
-import { Instrument_Sans } from "next/font/google";
-import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
-
-const instrumentSans = Instrument_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
-
+import WhoWeAreSection from "./components/WhoWeAreSection";
+import ClientsSection from "./components/ClientsSection";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
-    <main className={instrumentSans.className}>
-    <Header/>
-    <HeroSection/>
-    <Footer/>
-  </main>
+    <>
+      <HeroSection />
+      <WhoWeAreSection />
+      <ClientsSection />
+      <ContactSection />
+    </>
   );
 }
